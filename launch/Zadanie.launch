@@ -1,0 +1,6 @@
+<launch>
+    <node name="Summing_node" pkg="super_andrey_study_pkg" type="Summing.py" output="screen">
+    </node>
+    <node name="Polynomial_node" pkg="super_andrey_study_pkg" type="Polynomial.py" output="screen">
+    </node>
+</launch>
